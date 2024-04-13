@@ -16,4 +16,20 @@ header {
 nav {
   display: flex;
   gap: 20px;
+  align-items: center;
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+}
+
+.logo-about {
+  display: flex;
+  align-items: center;
+}
+
+.about-details {
+  display: flex;
+  align-items: center;
 }

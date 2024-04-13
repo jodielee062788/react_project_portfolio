@@ -13,8 +13,16 @@ function App() {
   return (
     <Router>
       <Header />
-      <h1>About Me</h1>
-      img
+      <div className="logo-about">
+        <img src="./img/cat1.png" alt="" />
+        <h1>About Me</h1>
+      </div>
+     
+      <div className="about-details"><p>I&apos;m <span className="name">Jodie Lee</span> — a dedicated coder and aspiring web developer. 
+          Whether it&apos;s making things look good on the front-end or figuring out the technical side in back-end, 
+          I enjoy the whole process and love learning new things.</p>
+        <img src="./img/pixil-frame-0.png" alt="" />
+      </div>
       <Project />
       <Footer />
     </Router>
