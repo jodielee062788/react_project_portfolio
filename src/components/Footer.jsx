@@ -3,7 +3,7 @@
 function Footer() {
   return (
     <footer>
-      <div className="logo">
+      <div className="logos">
       <a href="mailto:jodielee062788@gmail.com" title="E-mail">
         <img src="./img/envelope.png" alt="email logo" />
       </a>

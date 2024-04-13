@@ -33,3 +33,17 @@ nav {
   display: flex;
   align-items: center;
 }
+
+.about-details img {
+  width: 10%;
+}
+
+.logos {
+  display: flex;
+}
+
+.logos img {
+  width: 10%;
+  justify-content: center;
+  align-items: center;
+}
