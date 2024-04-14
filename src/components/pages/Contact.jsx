@@ -21,14 +21,14 @@ export default function Contact() {
   };
 
   return (
-    <div className='contact'>
+    <div className='contact d-flex flex-column align-items-center mx-auto'>
       <div className="contact-logo">
-        <img src="./img/cat3.png" alt="" />
-        <h2>Contact</h2>
+        <img src="./img/cat3.png" alt="cat logo" />
+        <h2 className='mt-2 ms-2'>Contact</h2>
       </div>
       <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
+        <div className='mt-4 d-flex flex-column align-items-start'>
+          <label htmlFor="name">Name</label>
           <input
             type="text"
             id="name"
@@ -38,8 +38,8 @@ export default function Contact() {
             required
           />
         </div>
-        <div>
-          <label htmlFor="email">Email:</label>
+        <div className='d-flex flex-column align-items-start mt-3'>
+          <label htmlFor="email">Email</label>
           <input
             type="email"
             id="email"
@@ -49,8 +49,8 @@ export default function Contact() {
             required
           />
         </div>
-        <div>
-          <label htmlFor="message">Message:</label>
+        <div className='d-flex flex-column align-items-start mt-3'>
+          <label htmlFor="message">Message</label>
           <textarea
             id="message"
             name="message"
@@ -60,7 +60,7 @@ export default function Contact() {
           ></textarea>
         </div>
         <div>
-          <button type="submit">Submit</button>
+          <button className='d-flex mx-auto mt-4 fw-bold' type="submit">SUBMIT</button>
         </div>
       </form>
     </div>
