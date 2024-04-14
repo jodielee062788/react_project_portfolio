@@ -24,7 +24,7 @@ export default function Contact() {
     <div className='contact d-flex flex-column align-items-center mx-auto'>
       <div className="contact-logo">
         <img src="./img/cat3.png" alt="cat logo" />
-        <h1 className='mt-2 ms-2'>Contact</h1>
+        <h1 className='ms-3'>Contact</h1>
       </div>
       <form onSubmit={handleSubmit}>
         <div className='mt-4 d-flex flex-column align-items-start'>
