@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function Contact() {
+export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -66,5 +66,3 @@ function Contact() {
     </div>
   );
 }
-
-export default Contact;
