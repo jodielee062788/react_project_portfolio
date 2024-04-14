@@ -8,7 +8,7 @@ export default function About() {
         <img src="./img/cat1.png" alt="cat logo" />
         <h1 className='mt-2 ms-3 fw-bold'>About Me</h1>
       </div>
-      <div className="about-details p-5 d-flex align-items-center col-5 mx-auto">
+      <div className="about-details p-5 d-flex align-items-center col-6 mx-auto">
         <p className='text-justify me-5'>I&apos;m <span className="name">Jodie Lee</span> — a dedicated coder and aspiring web developer. With experience in both
           frontend and backend development, I enjoy creating interactive user interfaces as well
           as solving complex backend challenges. I&apos;m passionate about the entire development

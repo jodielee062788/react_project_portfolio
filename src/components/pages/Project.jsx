@@ -22,7 +22,7 @@ export default function Portfolio() {
     <div className="portfolio d-flex flex-column align-items-center mx-auto">
       <div className="portfolio-logo">
         <img src="./img/cat2.png" alt="" />
-        <h2>Portfolio</h2>
+        <h1>Portfolio</h1>
       </div>
       <div className="row">
         {projects.map((project, index) => (

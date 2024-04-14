@@ -16,7 +16,7 @@
 .portfolio,
 .contact,
 .resume {
-  background-color: #f8eaed;
+  background-color: #ebd5da;
   height: 880px;
 }
 
@@ -77,12 +77,28 @@
 
 .arrow-icon:hover {
   color: #cc2936; 
+  transform: scale(1.05);
+
 }
 
 /* Footer */
+.logos {
+  border: 3px dashed #08415c;
+  padding: 7px;
+  border-radius: 10px;
+  background-color: #ebbab9;
+}
+
 .logos img {
-  width: 50px;
-  margin-right: 10px;
+  width: 45px;
+  margin: 9px;
+  box-shadow: 2px 2px #0d0304;
+  border-radius: 13px;
+}
+
+.logos img:hover {
+  box-shadow: 3px 3px #0d0304;
+  transform: scale(1.05);
 }
 
 /* Portfolio css */
@@ -104,7 +120,7 @@
 .resume,
 .about,
 .portfolio {
-  padding-top: 6%;
+  padding-top: 5%;
 }
 
 .contact-logo {

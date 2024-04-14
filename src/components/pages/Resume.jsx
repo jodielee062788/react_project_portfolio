@@ -15,7 +15,7 @@ export default function Resume() {
     <div className='resume d-flex flex-column align-items-center mx-auto'>
       <div className="resume-logo">
         <img src="./img/cat4.png" alt="" />
-        <h2>Resume</h2>
+        <h1>Resume</h1>
       </div>
       <p>
         Download my resume:{' '}
