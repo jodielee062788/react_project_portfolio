@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 
 import CardHeader from '../Card/CardHeader';
 import CardLinks from '../Card/CardLink';
