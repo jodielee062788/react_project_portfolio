@@ -3,7 +3,7 @@
 import CardHeader from '../Card/CardHeader';
 import CardLinks from '../Card/CardLink';
 
-function CardBody({ title, deployedLink, githubLink, imageSrc }) {
+export default function CardBody({ title, deployedLink, githubLink, imageSrc }) {
   return (
     <div className="card-body">
       <CardHeader title={title} />
@@ -13,4 +13,3 @@ function CardBody({ title, deployedLink, githubLink, imageSrc }) {
   );
 }
 
-export default CardBody;

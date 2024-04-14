@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-function CardLinks({ deployedLink, githubLink }) {
+export default function CardLinks({ deployedLink, githubLink }) {
   return (
     <div className="card-text">
       <a href={deployedLink} className="btn btn-primary mr-2" target="_blank" rel="noopener noreferrer">
@@ -13,4 +13,3 @@ function CardLinks({ deployedLink, githubLink }) {
   );
 }
 
-export default CardLinks;

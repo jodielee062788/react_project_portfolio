@@ -1,6 +1,6 @@
 
 
-function Footer() {
+export default function Footer() {
   return (
     <footer className="p-5">
       <div className="logos">
@@ -24,4 +24,3 @@ function Footer() {
   );
 }
 
-export default Footer;
