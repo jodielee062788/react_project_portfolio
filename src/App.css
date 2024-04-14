@@ -31,6 +31,11 @@
   padding: 8px;
 }
 
+/* About Page CSS */
+.about h1 {
+  font-family: 'Jersey 10 Charted', sans-serif;
+  font-size: 60px;
+}
 .logo-about {
   display: flex;
   align-items: center;

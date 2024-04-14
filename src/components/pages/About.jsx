@@ -5,7 +5,7 @@ export default function About() {
     <div className="about d-flex flex-column align-items-center mx-auto">
       <div className="logo-about pt-4 ps-3">
         <img src="./img/cat1.png" alt="" />
-        <h1>About Me</h1>
+        <h1 className='ms-2 fw-bold'>About Me</h1>
       </div>
       <div className="about-details p-5">
         <p>I&apos;m <span className="name">Jodie Lee</span> — a dedicated coder and aspiring web developer.
