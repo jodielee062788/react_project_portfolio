@@ -13,7 +13,10 @@ function Resume() {
 
   return (
     <div className='resume'>
-      <h2>Resume</h2>
+      <div className="resume-logo">
+        <img src="./img/cat4.png" alt="" />
+        <h2>Resume</h2>
+      </div>
       <p>
         Download my resume:{' '}
         <a href="/path/to/resume.pdf" download>

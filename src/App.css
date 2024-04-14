@@ -13,6 +13,7 @@
 }
 
 .about,
+.portfolio,
 .contact,
 .resume {
   background-color: #90c2e7;
@@ -62,4 +63,42 @@
   width: 10%;
   justify-content: center;
   align-items: center;
+}
+
+/* Portfolio css */
+
+.portfolio-logo {
+  display: flex;
+}
+
+.portfolio-logo img {
+  width: 85px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color:antiquewhite;
+  padding: 1px;
+}
+
+/* Contact Page CSS */
+.contact-logo {
+  display: flex;
+}
+
+.contact-logo img {
+  width: 65px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color:antiquewhite;
+}
+
+/* Resume Page CSS */
+.resume-logo {
+  display: flex;
+}
+
+.resume-logo img {
+  width: 65px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color:antiquewhite;
 }

@@ -22,7 +22,10 @@ function Contact() {
 
   return (
     <div className='contact'>
-      <h2>Contact</h2>
+      <div className="contact-logo">
+        <img src="./img/cat3.png" alt="" />
+        <h2>Contact</h2>
+      </div>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>

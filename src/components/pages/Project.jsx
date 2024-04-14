@@ -17,8 +17,12 @@ function Portfolio() {
   ];
 
   return (
-    <div>
-      <h2>Portfolio</h2>
+    <div className="portfolio">
+      <div className="portfolio-logo">
+        <img src="./img/cat2.png" alt="" />
+        <h2>Portfolio</h2>
+      </div>
+     
       <div className="row">
         {projects.map((project, index) => (
           <div key={index} className="col-md-4 mb-4">
