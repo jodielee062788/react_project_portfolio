@@ -81,7 +81,10 @@
 
 /* Contact Page CSS */
 
-.contact {
+.contact,
+.resume,
+.about,
+.portfolio {
   padding-top: 7%;
 }
 

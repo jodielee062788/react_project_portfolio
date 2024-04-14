@@ -12,7 +12,7 @@ export default function Resume() {
   ];
 
   return (
-    <div className='resume'>
+    <div className='resume d-flex flex-column align-items-center mx-auto'>
       <div className="resume-logo">
         <img src="./img/cat4.png" alt="" />
         <h2>Resume</h2>

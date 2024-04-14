@@ -2,7 +2,7 @@ import Footer from '../Footer';
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="about d-flex flex-column align-items-center mx-auto">
       <div className="logo-about pt-4 ps-3">
         <img src="./img/cat1.png" alt="" />
         <h1>About Me</h1>

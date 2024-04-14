@@ -19,7 +19,7 @@ export default function Portfolio() {
   ];
 
   return (
-    <div className="portfolio">
+    <div className="portfolio d-flex flex-column align-items-center mx-auto">
       <div className="portfolio-logo">
         <img src="./img/cat2.png" alt="" />
         <h2>Portfolio</h2>
