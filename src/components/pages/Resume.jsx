@@ -1,5 +1,5 @@
 
-function Resume() {
+export default function Resume() {
   const proficiencies = [
     'JavaScript',
     'React',
@@ -32,5 +32,3 @@ function Resume() {
     </div>
   );
 }
-
-export default Resume;

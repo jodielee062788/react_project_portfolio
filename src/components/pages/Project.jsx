@@ -1,5 +1,7 @@
 
-function Portfolio() {
+import ProjectCard from '../UI/ProjectCard';
+
+export default function Portfolio() {
   const projects = [
     {
       title: 'Project 1',
@@ -22,29 +24,18 @@ function Portfolio() {
         <img src="./img/cat2.png" alt="" />
         <h2>Portfolio</h2>
       </div>
-     
       <div className="row">
         {projects.map((project, index) => (
-          <div key={index} className="col-md-4 mb-4">
-            <div className="card">
-              <img src={project.imageSrc} className="card-img-top" alt={project.title} />
-              <div className="card-body">
-                <h5 className="card-title">{project.title}</h5>
-                <div className="card-text">
-                  <a href={project.deployedLink} className="btn btn-primary mr-2" target="_blank" rel="noopener noreferrer">
-                    Deployed App
-                  </a>
-                  <a href={project.githubLink} className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-                    GitHub Repo
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <ProjectCard
+            key={index}
+            title={project.title}
+            imageSrc={project.imageSrc}
+            deployedLink={project.deployedLink}
+            githubLink={project.githubLink}
+          />
         ))}
       </div>
     </div>
   );
 }
 
-export default Portfolio;
