@@ -9,9 +9,10 @@ export default function About() {
         <h1 className='mt-2 ms-3 fw-bold'>About Me</h1>
       </div>
       <div className="about-details p-5 d-flex align-items-center col-5 mx-auto">
-        <p className='text-justify me-5'>I&apos;m <span className="name">Jodie Lee</span> — a dedicated coder and aspiring web developer.
-        Whether it&apos;s making things look good on the front-end or figuring out the technical side in back-end,
-        I enjoy the whole process and love learning new things.</p>
+        <p className='text-justify me-5'>I&apos;m <span className="name">Jodie Lee</span> — a dedicated coder and aspiring web developer. With experience in both
+          frontend and backend development, I enjoy creating interactive user interfaces as well
+          as solving complex backend challenges. I&apos;m passionate about the entire development
+          process and always eager to learn and explore new technologies.</p>
         <ImageToggle />
       </div>
       <Footer />

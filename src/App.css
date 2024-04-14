@@ -17,7 +17,7 @@
 .contact,
 .resume {
   background-color: #f8eaed;
-  height: 870px;
+  height: 880px;
 }
 
 .logo-text {
@@ -36,6 +36,12 @@
   font-family: 'Jersey 10 Charted', sans-serif;
   font-size: 60px;
 }
+
+.about p {
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 19px;
+}
+
 .logo-about {
   display: flex;
   align-items: center;
@@ -98,7 +104,7 @@
 .resume,
 .about,
 .portfolio {
-  padding-top: 7%;
+  padding-top: 6%;
 }
 
 .contact-logo {
