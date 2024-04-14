@@ -2,26 +2,32 @@
   box-sizing: border-box;
 }
 
-header {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #282c34;
+  background-color: #cc2936;
   color: white;
-  padding: 20px;
-  width: 100%;
+  padding: 10px;
   margin:0;
 }
 
-nav {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+.about,
+.contact,
+.resume {
+  background-color: #90c2e7;
+  height: 870px;
 }
 
 .logo-text {
   display: flex;
   align-items: center;
+  padding-left: 20px;
+}
+
+.logo-text img {
+  width: 40%;
+  padding: 8px;
 }
 
 .logo-about {
@@ -29,17 +35,27 @@ nav {
   align-items: center;
 }
 
+.logo-about img {
+  width: 65px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color:antiquewhite;
+}
+
 .about-details {
   display: flex;
   align-items: center;
+  width: 50%;
 }
 
 .about-details img {
-  width: 10%;
+  width: 200px;
 }
 
 .logos {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logos img {
