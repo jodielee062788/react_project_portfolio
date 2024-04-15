@@ -1,7 +1,10 @@
 export default function Footer() {
   return (
     <footer className="p-4">
-      <div className="logos d-flex justify-content-center">
+      <div className="logos d-flex justify-content-center shadow">
+        <a href="tel:+61410861559" title="Phone">
+          <img src="./img/telephone.png" alt="phone logo" />
+        </a>
         <a href="mailto:jodielee062788@gmail.com" title="E-mail">
           <img src="./img/envelope.png" alt="email logo" />
         </a>
