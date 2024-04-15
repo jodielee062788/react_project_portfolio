@@ -17,18 +17,16 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData); // You can handle form submission logic here
   };
 
   return (
     <div className='contact d-flex flex-column align-items-center mx-auto'>
-      <div className="contact1 d-inline-block border border-dark rounded p-3 shadow">
         <div className="contact-logo align-items-center justify-content-center">
           <img src="./img/cat3.png" alt="cat logo" />
           <h1 className='ms-3 mt-2'>Contact</h1>
         </div>
         <form onSubmit={handleSubmit}>
-          <div className='mt-4 d-flex flex-column align-items-start'>
+          <div className='d-flex flex-column align-items-start'>
             <label htmlFor="name">Name</label>
             <input
               type="text"
@@ -61,10 +59,10 @@ export default function Contact() {
             ></textarea>
           </div>
           <div>
-            <button className='d-flex mx-auto mt-4 fw-bold' type="submit">SUBMIT</button>
+            <button className='submitBtn d-flex mx-auto mt-4 shadow' type="submit">SUBMIT</button>
           </div>
         </form>
-      </div>  
     </div>
+    
   );
 }

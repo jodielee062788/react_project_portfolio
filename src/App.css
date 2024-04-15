@@ -2,11 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #ebd5da;
-}
+
 
 .navbar {
   display: flex;
@@ -133,8 +129,13 @@ h1 {
   padding-top: 3%;
 }
 
-.contact1 {
+.contact form {
+  border: 2px solid black;
   background-color: #08415c;
+  margin: 30px 0 30px 0;
+  border-radius: 10px;
+  box-shadow: 3px 4px grey;
+  padding: 30px;
 }
 
 .contact-logo {
@@ -155,6 +156,7 @@ h1 {
   width: 450px;
   border: 2px solid black;
   border-radius: 7px;
+  font-family: 'Tilt Neon', sans-serif;
 }
 
 .contact input {
@@ -168,6 +170,12 @@ h1 {
 .contact label {
   font-family: 'Tilt Neon', sans-serif;
   font-size: 20px;
+  color: aliceblue;
+}
+
+.submitBtn {
+  font-family: 'Tilt Neon', sans-serif;
+  font-weight: bolder;
 }
 
 /* Resume Page CSS */

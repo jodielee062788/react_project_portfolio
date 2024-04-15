@@ -1,5 +1,5 @@
 import Footer from '../Footer';
-import ImageToggle from './ImageToggle';
+import ImageToggle from '../UI/ImageToggle';
 
 export default function About() {
   return (

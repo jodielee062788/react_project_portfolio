@@ -11,9 +11,9 @@ function ImageToggle() {
   return (
     <div className="pics d-flex flex-column align-items-center ms-3">
       {showFirstImage ? (
-        <img src="./img/pixil-frame-0.png" alt="pixel art of developer" className="mb-3" />
+        <img src="./img/pixil-frame-0.png" alt="pixel art of developer" className="mb-3 shadow" />
       ) : (
-        <img src="./img/unnamed.jpg" alt="developer's pic" className="mb-3" />
+        <img src="./img/unnamed.jpg" alt="developer's pic" className="mb-3 shadow" />
       )}
       <div className="d-flex">
         <button onClick={toggleImage} className="btn btn-link">
