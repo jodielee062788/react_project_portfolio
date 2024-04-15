@@ -21,7 +21,7 @@ export default function Contact() {
   };
 
   return (
-    <div className='contact d-flex flex-column align-items-center mx-auto'>
+    <div className='contact d-flex flex-column align-items-center'>
         <div className="contact-logo align-items-center justify-content-center">
           <img src="./img/cat3.png" alt="cat logo" />
           <h1 className='ms-3 mt-2'>Contact</h1>

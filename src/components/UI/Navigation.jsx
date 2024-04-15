@@ -5,7 +5,7 @@ export default function Nav({ links }) {
     <nav className="navbar navbar-expand-lg">
       <div className="logo-text">
         <img src="./img/cat logo.png" alt="" />
-        <h1>JCLee</h1>
+        <h2>JCLee</h2>
       </div>
       <div className="container-fluid">
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
