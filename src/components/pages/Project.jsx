@@ -4,18 +4,41 @@ import ProjectCard from '../UI/ProjectCard';
 export default function Portfolio() {
   const projects = [
     {
-      title: 'Project 1',
-      imageSrc: '/path/to/project1-image.jpg',
-      deployedLink: 'https://example.com/project1',
-      githubLink: 'https://github.com/example/project1',
+      title: 'Games Blog',
+      imageSrc: './public/img/gamesblog.png',
+      deployedLink: 'https://games-blog-810710186486.herokuapp.com/',
+      githubLink: 'https://github.com/jodielee062788/mvc_techblog',
     },
     {
-      title: 'Project 2',
-      imageSrc: '/path/to/project2-image.jpg',
-      deployedLink: 'https://example.com/project2',
-      githubLink: 'https://github.com/example/project2',
+      title: 'Weather Dashboard',
+      imageSrc: '../public/img/weatherapp.png',
+      deployedLink: 'https://jodielee062788.github.io/weather-forecast-app/',
+      githubLink: 'https://github.com/jodielee062788/weather-forecast-app',
     },
-    // Add more projects here
+    {
+      title: 'I Choose You',
+      imageSrc: '../public/img/ichooseyou.png',
+      deployedLink: 'https://adamisitmez.github.io/I-Choose-You/',
+      githubLink: 'https://github.com/AdamIsitmez/I-Choose-You',
+    },
+    {
+      title: 'Wagerless',
+      imageSrc: '../public/img/wagerless.png',
+      deployedLink: 'https://wagerless-app-96d9cde47554.herokuapp.com/',
+      githubLink: 'https://github.com/Y1va/Wagerless',
+    },
+    {
+      title: 'Note Taker',
+      imageSrc: '../public/img/notetaker.png',
+      deployedLink: 'https://dry-coast-63605-66572fc1d17d.herokuapp.com/',
+      githubLink: 'https://github.com/jodielee062788/express_note_taker',
+    },
+    {
+      title: 'Javascript Quiz Game',
+      imageSrc: '../public/img/jsquiz.png',
+      deployedLink: 'https://jodielee062788.github.io/js-code-quiz/',
+      githubLink: 'https://github.com/jodielee062788/js-code-quiz',
+    },
   ];
 
   return (
