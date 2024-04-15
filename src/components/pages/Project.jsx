@@ -1,5 +1,6 @@
 
 import ProjectCard from '../UI/ProjectCard';
+import Footer from '../Footer';
 
 export default function Portfolio() {
   const projects = [
@@ -58,6 +59,7 @@ export default function Portfolio() {
           />
         ))}
       </div>
+      <Footer />
     </div>
   );
 }

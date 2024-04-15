@@ -1,3 +1,4 @@
+import Footer from '../Footer';
 
 export default function Resume() {
   const proficiencies = [
@@ -29,6 +30,7 @@ export default function Resume() {
           <li key={index}>{skill}</li>
         ))}
       </ul>
+      <Footer />
     </div>
   );
 }

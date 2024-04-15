@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Footer from '../Footer';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -62,6 +63,7 @@ export default function Contact() {
             <button className='submitBtn d-flex mx-auto mt-4 shadow' type="submit">SUBMIT</button>
           </div>
         </form>
+        <Footer />
     </div>
     
   );
