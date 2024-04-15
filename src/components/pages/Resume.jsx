@@ -49,33 +49,33 @@ export default function Resume() {
       </p>
       <div className="proficiencies row">
         <div className="col-md-4 proficiency-section">
-          <h3>Frontend Proficiencies</h3>
+          <h3 className='mb-4'>Frontend Proficiencies</h3>
           <ul className="proficiency-list">
             {frontendProficiencies.map((skill, index) => (
               <li key={index}>
-                <img src={skill.logo} alt={`${skill.name} logo`} className="proficiency-logo mb-2" />
+                <img src={skill.logo} alt={`${skill.name} logo`} className="proficiency-logo mb-2 ms-5" />
                 {skill.name}
               </li>
             ))}
           </ul>
         </div>
         <div className="col-md-4 proficiency-section">
-          <h3>Backend Proficiencies</h3>
+          <h3 className='mb-4'>Backend Proficiencies</h3>
           <ul className="proficiency-list">
             {backendProficiencies.map((skill, index) => (
               <li key={index}>
-                <img src={skill.logo} alt={`${skill.name} logo`} className="proficiency-logo mb-2" />
+                <img src={skill.logo} alt={`${skill.name} logo`} className="proficiency-logo mb-2 ms-5" />
                 {skill.name}
               </li>
             ))}
           </ul>
         </div>
         <div className="col-md-4 proficiency-section">
-          <h3>Development<br></br>Tools</h3>
+          <h3 className='mb-4'>Development<br></br>Tools</h3>
           <ul className="proficiency-list">
             {otherTechnologies.map((tech, index) => (
               <li key={index}>
-                <img src={tech.logo} alt={`${tech.name} logo`} className="proficiency-logo mb-2" />
+                <img src={tech.logo} alt={`${tech.name} logo`} className="proficiency-logo mb-2 ms-5" />
                 {tech.name}
               </li>
             ))}
