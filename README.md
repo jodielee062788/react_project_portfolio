@@ -14,6 +14,13 @@ The portfolio aims to solve the problem of presenting my work in an organized an
 
 Through this project, I learned about React components, routing, state management, and the importance of responsive design in web development.
 
+## User Story
+
+    AS AN employer looking for candidates with experience building single-page applications
+    I WANT to view a potential employee's deployed React portfolio of work samples
+    SO THAT I can assess whether they're a good candidate for an open position
+
+
 ## Installation
 
 To install and run this project locally, follow these steps:
