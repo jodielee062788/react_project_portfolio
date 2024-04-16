@@ -9,7 +9,8 @@ export default function Portfolio() {
       imageSrc: '/img/gamesblog.png',
       deployedLink: 'https://games-blog-810710186486.herokuapp.com/',
       githubLink: 'https://github.com/jodielee062788/mvc_techblog',
-      description: 'A blog website where users can share and read about their favorite games.'
+      description: 'A blog website where users can share and read about their favorite games.',
+      technologies: ['JavaScript', 'Node.js', 'Express', 'MongoDB']
     },
     {
       title: 'Weather App',
@@ -49,7 +50,7 @@ export default function Portfolio() {
         <img src="./img/cat2.png" alt="cat logo" className='mt-1' />
         <h1 className='ms-3 fw-bold'>Portfolio</h1>
       </div>
-      <div className="row gx-3">
+      <div className="proj-list row gx-3">
         {projects.map((project, index) => (
           <div className="col-md-2 mb-4" key={index}>
             <ProjectCard
@@ -58,6 +59,7 @@ export default function Portfolio() {
               description={project.description}
               deployedLink={project.deployedLink}
               githubLink={project.githubLink}
+              technologies={project.technologies}
             />
           </div>
         ))}

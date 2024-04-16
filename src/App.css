@@ -134,11 +134,10 @@ h2 {
   display: flex;
 }
 
-/* Add these styles to decrease the card size */
 .card {
-  width: 250px; /* Adjust the width as per your requirement */
-  height: 400px; /* Let the height adjust based on content */
-  margin: 10px; /* Adjust margin to create space between cards */
+  width: 250px; 
+  height: 450px; 
+  margin: 10px; 
 }
 
 .card-title {
@@ -160,8 +159,8 @@ h2 {
 }
 
 .card-img-top {
-  width: 100%; /* Make sure the image takes the full width of the card */
-  height: auto; /* Allow the image to adjust its height */
+  width: 100%; 
+  height: auto; 
 }
 
 .card-links {
@@ -180,7 +179,15 @@ h2 {
   transform: scale(1.1);
 }
 
+.tech-logo img {
+  width: 38px;
+  height: 40px;
+}
 
+.description {
+  font-family: 'Tilt Neon', sans-serif;
+  color: aliceblue;
+}
 
 /* Contact Page CSS */
 .contact,

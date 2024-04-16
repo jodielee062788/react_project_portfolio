@@ -14,11 +14,11 @@ export default function Resume() {
   ];
 
   const backendProficiencies = [
-    { name: 'Node.js', logo: './img/node-js.png' },
+    { name: 'Node.js', logo: './img/node.js.png' },
     { name: 'Express.js', logo: './img/express.png' },
     { name: 'MySQL', logo: './img/database.png' },
     { name: 'Sequelize', logo: './img/sequelize.png' },
-    { name: 'MongoDB', logo: './img/mongodb1.png' },
+    { name: 'MongoDB', logo: './img/mongodb.png' },
     { name: 'GraphQL', logo: './img/graphql.png' },
     { name: 'Python', logo: './img/python.png' },
     { name: 'Java', logo: './img/web.png' },

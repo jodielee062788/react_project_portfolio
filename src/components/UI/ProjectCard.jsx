@@ -2,7 +2,7 @@
 
 import CardBody from '../UI/Card/CardBody';
 
-export default function ProjectCard({ title, imageSrc, deployedLink, githubLink, description }) {
+export default function ProjectCard({ title, imageSrc, deployedLink, githubLink, description, technologies }) {
   return (
     <div className="col-md-4 mb-4">
       <div className="card">
@@ -12,6 +12,7 @@ export default function ProjectCard({ title, imageSrc, deployedLink, githubLink,
           description={description} 
           deployedLink={deployedLink}
           githubLink={githubLink}
+          technologies={technologies}
         />
       </div>
     </div>
