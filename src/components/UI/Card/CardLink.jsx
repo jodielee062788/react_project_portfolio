@@ -2,14 +2,13 @@
 
 export default function CardLinks({ deployedLink, githubLink }) {
   return (
-    <div className="card-text">
-      <a href={deployedLink} className="btn btn-primary mr-2" target="_blank" rel="noopener noreferrer">
-        Deployed App
+    <div className="card-links mt-4">
+      <a href={deployedLink} target="_blank" rel="noopener noreferrer">
+        <img src="./img/website.png" alt="Deployed App Logo" className="logo-icon" />
       </a>
-      <a href={githubLink} className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-        GitHub Repo
+      <a href={githubLink} target="_blank" rel="noopener noreferrer">
+        <img src="./img/logo.png" alt="GitHub Repo Logo" className="logo-icon" />
       </a>
     </div>
   );
 }
-
