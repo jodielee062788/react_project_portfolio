@@ -7,8 +7,8 @@ export default function CardBody({ title, deployedLink, githubLink, imageSrc, de
   return (
     <div className="card-body">
       <CardHeader title={title} />
-      <img src={imageSrc} className="card-img-top" alt={title} />
-      <p className="description card-text">{description}</p>
+      <img src={imageSrc} className="card-img-top mt-1 shadow" alt={title} />
+      <p className="description card-text mt-2">{description}</p>
       {technologies && Array.isArray(technologies) && (
         <div className="tech-logo d-flex gap-2">
           {technologies.map((tech, index) => (

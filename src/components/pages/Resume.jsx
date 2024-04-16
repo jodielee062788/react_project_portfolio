@@ -10,18 +10,18 @@ export default function Resume() {
     { name: 'Vue.js', logo: './img/vue.png' },
     { name: 'Vite', logo: './img/vite.png' },
     { name: 'Bootstrap', logo: './img/bootstrap.png' },
-    { name: 'Tailwind CSS', logo: './img/tailwind1.png' },
+    { name: 'Tailwind CSS', logo: './img/tailwind.png' },
   ];
 
   const backendProficiencies = [
     { name: 'Node.js', logo: './img/node.js.png' },
     { name: 'Express.js', logo: './img/express.png' },
-    { name: 'MySQL', logo: './img/database.png' },
+    { name: 'MySQL', logo: './img/mysql.png' },
     { name: 'Sequelize', logo: './img/sequelize.png' },
     { name: 'MongoDB', logo: './img/mongodb.png' },
     { name: 'GraphQL', logo: './img/graphql.png' },
     { name: 'Python', logo: './img/python.png' },
-    { name: 'Java', logo: './img/web.png' },
+    { name: 'Java', logo: './img/java.png' },
   ];
 
   const otherTechnologies = [
