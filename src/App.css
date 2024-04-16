@@ -23,6 +23,12 @@
   border-radius: 5px;
 }
 
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; /* Align items vertically center */
+}
+
 .logo-text {
   display: flex;
   align-items: center;
@@ -46,6 +52,7 @@
 h1 {
   font-family: 'Lilita One', sans-serif;
   font-size: 65px;
+  text-shadow: 2px 2px 4px rgba(35, 33, 33, 0.5);
 }
 
 h2 {
@@ -227,7 +234,7 @@ h2 {
   margin: 20px 0 10px 0;
   border-radius: 10px;
   box-shadow: 3px 4px grey;
-  padding: 30px;
+  padding: 25px;
 }
 
 .contact-logo {
@@ -269,6 +276,7 @@ h2 {
 .submitBtn {
   font-family: 'Lilita One', sans-serif;
   font-weight: bolder;
+  background-color: aliceblue;
 }
 
 /* Resume Page CSS */

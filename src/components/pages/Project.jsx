@@ -46,7 +46,7 @@ export default function Portfolio() {
     },
     {
       title: 'JS Quiz Game',
-      imageSrc: '../public/img/jsquiz.png',
+      imageSrc: '/img/jsquiz.png',
       deployedLink: 'https://jodielee062788.github.io/js-code-quiz/',
       githubLink: 'https://github.com/jodielee062788/js-code-quiz',
       description: 'A JavaScript Quiz game that challenges users on their knowledge of JavaScript fundamentals.',
@@ -57,12 +57,12 @@ export default function Portfolio() {
   return (
     <div className="portfolio d-flex flex-column align-items-center ">
       <div className="portfolio-logo mb-3">
-        <img src="./img/cat2.png" alt="cat logo" className='mt-1' />
+        <img src="./img/cat2.png" alt="cat logo" className='mt-1 shadow' />
         <h1 className='ms-3 fw-bold'>Portfolio</h1>
       </div>
-      <div className="proj-list row gx-3">
+      <div className="proj-list row gx-3 justify-content-center">
         {projects.map((project, index) => (
-          <div className="col-md-2" key={index}>
+          <div className="col-7 col-lg-3 col-sm-6 col-md-4 col-xl-2 mx-auto" key={index}>
             <ProjectCard
               title={project.title}
               imageSrc={project.imageSrc}

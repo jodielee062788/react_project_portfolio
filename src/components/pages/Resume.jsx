@@ -38,7 +38,7 @@ export default function Resume() {
   return (
     <div className='resume d-flex flex-column align-items-center'>
       <div className="resume-logo">
-        <img src="./img/cat4.png" alt="cat logo" />
+        <img src="./img/cat4.png" alt="cat logo" className='shadow' />
         <h1 className='ms-3 fw-bold'>Resume</h1>
       </div>
       <p>
