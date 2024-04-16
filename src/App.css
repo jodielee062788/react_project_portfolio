@@ -8,14 +8,25 @@
   align-items: center;
   background-color: #cc2936;
   color: white;
-  padding: 6px;
+  padding: 3px;
   margin:0;
+  font-family: 'Tilt Neon', sans-serif;
+  border-bottom: 4px solid black;
+}
+
+.nav-link {
+  font-size: 21px;
+}
+
+.nav-link:hover {
+  background-color: #08415c;
+  border-radius: 5px;
 }
 
 .logo-text {
   display: flex;
   align-items: center;
-  padding-left: 20px;
+  padding-left: 19px;
 }
 
 .logo-text img {
@@ -170,12 +181,14 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 10px;
+
 }
 
 .logo-icon {
   width: 40px;
   height: 40px;
   transition: transform 0.3s ease-in-out;
+
 }
 
 .logo-icon:hover {
